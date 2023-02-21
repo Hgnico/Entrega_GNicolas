@@ -26,6 +26,10 @@ header {
   background-image: url(../images/back8.jpg);
 }
 
+.nav-link {
+  text-transform: uppercase;
+}
+
 /* Principal */
 .img__main {
   padding: 2%;
@@ -62,7 +66,12 @@ header {
   margin-bottom: 3%;
 }
 .card {
-  --bs-body-bg: #9eadbd;
+  --bs-body-bg: #a6b3c1;
+}
+
+.btn.btn-primary {
+  --bs-btn-bg: #3a8094;
+  --bs-btn-border-color: #3a8094;
 }
 
 /*Locales*/
@@ -130,8 +139,8 @@ iframe {
 .contacto__boton {
   padding: 2%;
   margin-top: 3%;
-  color: #9eadbd;
-  background-color: #3b4856;
+  color: white;
+  background-color: #3a8094;
   font-size: 16px;
   width: 95%;
   font-size: large;
