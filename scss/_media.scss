@@ -1,0 +1,71 @@
+@media (min-width: 768px) {
+  /*Todas las paginas*/
+  .navbar {
+    margin-left: 5%;
+    font-size: larger;
+  }
+  .navbar-nav .nav-link.active {
+    --bs-navbar-active-color: #3a4856;
+    font-weight: bold;
+  }
+  /*Contactos*/
+  .contacto {
+    justify-content: flex-start;
+    margin-left: 35%;
+  }
+  .subContacto {
+    width: 75%;
+  }
+  .contacto__boton {
+    width: 75%;
+  }
+  /*Productos*/
+  .plantilla__prod {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1%;
+  }
+  /*Nosotros*/
+  .nosotros {
+    grid-template-columns: 40% auto;
+    font-size: larger;
+  }
+  .imgNosotros {
+    width: 30%;
+  }
+  /*Locales*/
+  #grilla {
+    grid-template-columns: auto 60%;
+    justify-items: start;
+  }
+  .imagen__tienda {
+    display: block;
+  }
+  .row__tienda {
+    font-size: medium;
+  }
+}
+@media (min-width: 1024px) {
+  /*Todas las paginas*/
+  header {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  /*Index*/
+  .img__main {
+    padding: 0.5%;
+    width: 62%;
+  }
+  /*Contacto*/
+  .contacto {
+    justify-content: flex-start;
+    margin-left: 40%;
+  }
+  .subContacto {
+    width: 60%;
+  }
+  .contacto__boton {
+    width: 60%;
+  }
+}

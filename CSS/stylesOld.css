@@ -1,15 +1,12 @@
-@charset "UTF-8";
 /*Elementos de todo el sitio*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Roboto", sans-serif;
 }
-
 header {
   display: flex;
   background-color: #9eadbd;
@@ -30,32 +27,11 @@ header {
   background-image: url(../images/back8.jpg);
 }
 
-/*ajuste a navbar*/
 .nav-link {
   text-transform: uppercase;
 }
-
 .text__upper {
   text-transform: uppercase;
-}
-
-/* Estilos Footer */
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #9eadbd;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer-icon {
-  text-decoration: none;
-  text-align: center;
-  padding: 0.5%;
-  color: #3b4856;
 }
 
 /* Index */
@@ -76,7 +52,6 @@ header {
   margin-right: 5%;
   font-family: "Montserrat", sans-serif;
 }
-
 .imgNosotros {
   width: 70%;
   margin-bottom: 3%;
@@ -93,7 +68,6 @@ header {
   padding: 5%;
   margin-bottom: 3%;
 }
-
 .card {
   --bs-body-bg: #a6b3c1;
 }
@@ -114,42 +88,37 @@ header {
   font-size: small;
   margin-left: 4%;
 }
-
 iframe {
   margin-top: 2rem;
   margin-right: 4rem;
 }
-
 .locales__mapa {
   border-radius: 40px;
   border-style: double;
   margin-bottom: 7%;
   margin-top: 1%;
 }
-
 .imagen__tienda {
   margin-left: 15%;
   width: 60%;
   display: none; /*En la version Mobile desabilita la imagen*/
 }
-
 /*Grilla para Foto y locales*/
 #grilla {
   display: grid;
-  grid-template-areas: "foto local1" "foto local2";
+  grid-template-areas:
+    "foto local1"
+    "foto local2";
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, 1fr);
   justify-items: start;
 }
-
 .foto {
   grid-area: foto;
 }
-
 .local1 {
   grid-area: local1;
 }
-
 .local2 {
   grid-area: local2;
 }
@@ -161,7 +130,6 @@ iframe {
   flex-direction: column;
   margin-left: 10%;
 }
-
 .subContacto {
   display: flex;
   flex-direction: column;
@@ -169,11 +137,9 @@ iframe {
   color: #3b4856;
   width: 95%;
 }
-
 .alt__linea {
   border-color: #3b4856;
 }
-
 .contacto__boton {
   padding: 2%;
   margin-top: 3%;
@@ -182,6 +148,24 @@ iframe {
   font-size: 16px;
   width: 95%;
   font-size: large;
+}
+
+/* Estilos Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #9eadbd;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-icon {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5%;
+  color: #3b4856;
 }
 
 @media (min-width: 768px) {
@@ -255,5 +239,3 @@ iframe {
     width: 60%;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */

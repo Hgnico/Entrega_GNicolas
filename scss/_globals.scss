@@ -1,0 +1,56 @@
+/*Elementos de todo el sitio*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: $color-back;
+  padding: 0.5%;
+  position: sticky;
+  justify-content: space-between;
+  flex-direction: row-reverse; /*Cambia la ubicación del logo en la version Mobile*/
+}
+
+.titulo__main {
+  text-align: center;
+  font-size: 2rem;
+  color: $color-font;
+  padding: 1%;
+}
+
+.imagen__fondo {
+  background-image: url(../images/back8.jpg);
+}
+
+/*ajuste a navbar*/
+.nav-link {
+  text-transform: uppercase;
+}
+.text__upper {
+  text-transform: uppercase;
+}
+
+/* Estilos Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $color-back;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-icon {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5%;
+  color: $color-font;
+}

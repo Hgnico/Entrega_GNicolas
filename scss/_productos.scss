@@ -1,0 +1,18 @@
+/* Productos */
+.plantilla__prod {
+  display: grid;
+  grid-gap: 1rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 80%;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+.card {
+  --bs-body-bg: #a6b3c1;
+}
+
+.btn.btn-primary {
+  --bs-btn-bg: #3a8094;
+  --bs-btn-border-color: #3a8094;
+}

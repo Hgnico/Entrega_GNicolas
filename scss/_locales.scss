@@ -1,0 +1,45 @@
+/*Locales*/
+.row__tienda {
+  color: $color-font;
+  line-height: 20%;
+  padding: 1%;
+  margin-bottom: 2%;
+  overflow: hidden;
+  max-width: 97%;
+  font-size: small;
+  margin-left: 4%;
+}
+iframe {
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+.locales__mapa {
+  border-radius: 40px;
+  border-style: double;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+.imagen__tienda {
+  margin-left: 15%;
+  width: 60%;
+  display: none; /*En la version Mobile desabilita la imagen*/
+}
+/*Grilla para Foto y locales*/
+#grilla {
+  display: grid;
+  grid-template-areas:
+    "foto local1"
+    "foto local2";
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: start;
+}
+.foto {
+  grid-area: foto;
+}
+.local1 {
+  grid-area: local1;
+}
+.local2 {
+  grid-area: local2;
+}

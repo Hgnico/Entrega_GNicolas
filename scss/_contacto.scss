@@ -1,0 +1,26 @@
+/* Contacto */
+.contacto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.subContacto {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1%;
+  color: $color-font;
+  width: 95%;
+}
+.alt__linea {
+  border-color: $color-font;
+}
+.contacto__boton {
+  padding: 2%;
+  margin-top: 3%;
+  color: white;
+  background-color: #3a8094;
+  font-size: 16px;
+  width: 95%;
+  font-size: large;
+}
