@@ -1,13 +1,11 @@
 /* Contacto */
 .contacto {
-  display: flex;
-  flex-direction: column;
+  @include flex(column);
   justify-content: center;
   margin-left: 10%;
 }
 .subContacto {
-  display: flex;
-  flex-direction: column;
+  @include flex(column);
   padding-bottom: 1%;
   color: $color-font;
   width: 95%;

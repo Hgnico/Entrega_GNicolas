@@ -2,11 +2,9 @@
 .plantilla__prod {
   display: grid;
   grid-gap: 1rem;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin: 0 3% 3% 3%;
   font-size: 80%;
   padding: 5%;
-  margin-bottom: 3%;
 }
 .card {
   --bs-body-bg: #a6b3c1;

@@ -40,8 +40,7 @@ header {
 
 /* Estilos Footer */
 .footer {
-  display: flex;
-  flex-direction: row;
+  @include flex(row);
   justify-content: center;
   background-color: $color-back;
   text-align: center;
