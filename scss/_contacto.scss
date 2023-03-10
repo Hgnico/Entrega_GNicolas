@@ -1,8 +1,8 @@
 /* Contacto */
 .contacto {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   margin-left: 10%;
 }
 .subContacto {
@@ -20,7 +20,10 @@
   margin-top: 3%;
   color: white;
   background-color: #3a8094;
-  font-size: 16px;
   width: 95%;
-  font-size: large;
+  /*anidado de estilo font*/
+  font: {
+    size: 16px;
+    size: large;
+  }
 }

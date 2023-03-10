@@ -37,6 +37,7 @@ header {
 
 .text__upper {
   text-transform: uppercase;
+  font-size: x-large;
 }
 
 /* Estilos Footer */
@@ -121,6 +122,7 @@ iframe {
 }
 
 .locales__mapa {
+  /*Anidación de propiedades igual raiz*/
   border-radius: 40px;
   border-style: double;
   margin-bottom: 7%;
@@ -157,8 +159,8 @@ iframe {
 /* Contacto */
 .contacto {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   margin-left: 10%;
 }
 
@@ -179,8 +181,9 @@ iframe {
   margin-top: 3%;
   color: white;
   background-color: #3a8094;
-  font-size: 16px;
   width: 95%;
+  /*anidado de estilo font*/
+  font-size: 16px;
   font-size: large;
 }
 
