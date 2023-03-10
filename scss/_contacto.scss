@@ -19,11 +19,7 @@
   padding: 2%;
   margin-top: 3%;
   color: white;
-  background-color: #3a8094;
+  background-color: $color-boton;
   width: 95%;
-  /*anidado de estilo font*/
-  font: {
-    size: 16px;
-    size: large;
-  }
+  font-size: large;
 }
