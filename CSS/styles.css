@@ -179,6 +179,7 @@ iframe {
   background-color: #3a8094;
   width: 95%;
   font-size: large;
+  box-shadow: 5px 5px 5px #3b4856;
 }
 
 @media (min-width: 768px) {
@@ -224,6 +225,7 @@ iframe {
   }
   .locales__imagen {
     display: block;
+    animation: start-left 1.5s ease-in;
   }
   .local1:hover {
     transform: scale(120%);
@@ -234,6 +236,18 @@ iframe {
     transform: scale(120%);
     transition: all 1.5s;
     color: black;
+  }
+  /*Animaci[on desde la izquierda*/
+  @keyframes start-left {
+    0% {
+      right: 100%;
+      opacity: 0;
+      transform: translate(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
   }
   .row__tienda {
     font-size: medium;
