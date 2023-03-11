@@ -4,15 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Roboto", sans-serif;
 }
-
 header {
   /*Incluir row-reverse para cambiar la ubicación del logo en la version Mobile*/
   @include flex(row-reverse);
-  background-color: $color-back;
   padding: 0.5%;
   position: sticky;
   justify-content: space-between;
@@ -23,14 +20,12 @@ header {
     rgba(59, 72, 86, 1) 93%
   );
 }
-
 .titulo__main {
   text-align: center;
   font-size: 2rem;
   color: $color-font;
   padding: 1%;
 }
-
 .imagen__fondo {
   background-image: url(../images/back8.jpg);
 }

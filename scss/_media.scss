@@ -34,6 +34,7 @@
   .imgNosotros {
     width: 30%;
   }
+
   /*Locales*/
   #grilla {
     grid-template-columns: auto 60%;
@@ -42,6 +43,18 @@
   .locales__imagen {
     display: block;
   }
+
+  .local1:hover {
+    transform: scale(120%);
+    transition: all 1.5s;
+    color: black;
+  }
+  .local2:hover {
+    transform: scale(120%);
+    transition: all 1.5s;
+    color: black;
+  }
+
   .row__tienda {
     font-size: medium;
   }

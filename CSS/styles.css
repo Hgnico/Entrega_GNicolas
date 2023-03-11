@@ -14,7 +14,6 @@ header {
   /*Incluir row-reverse para cambiar la ubicación del logo en la version Mobile*/
   display: flex;
   flex-direction: row-reverse;
-  background-color: #9eadbd;
   padding: 0.5%;
   position: sticky;
   justify-content: space-between;
@@ -225,6 +224,16 @@ iframe {
   }
   .locales__imagen {
     display: block;
+  }
+  .local1:hover {
+    transform: scale(120%);
+    transition: all 1.5s;
+    color: black;
+  }
+  .local2:hover {
+    transform: scale(120%);
+    transition: all 1.5s;
+    color: black;
   }
   .row__tienda {
     font-size: medium;
