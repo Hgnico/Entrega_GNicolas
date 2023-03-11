@@ -11,12 +11,14 @@ body {
 }
 
 header {
+  /*Incluir row-reverse para cambiar la ubicación del logo en la version Mobile*/
   display: flex;
+  flex-direction: row-reverse;
   background-color: #9eadbd;
   padding: 0.5%;
   position: sticky;
   justify-content: space-between;
-  flex-direction: row-reverse; /*Cambia la ubicación del logo en la version Mobile*/
+  background-image: linear-gradient(90deg, rgb(158, 173, 189) 22%, rgb(58, 113, 131) 73%, rgb(59, 72, 86) 93%);
 }
 
 .titulo__main {
@@ -45,18 +47,18 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #9eadbd;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-image: linear-gradient(90deg, rgb(58, 128, 148) 0%, rgb(59, 72, 86) 35%, rgb(158, 173, 189) 86%);
 }
 
 .footer-icon {
   text-decoration: none;
   text-align: center;
   padding: 0.5%;
-  color: #3b4856;
+  color: white;
 }
 
 /* Index */
@@ -127,7 +129,7 @@ iframe {
   margin-top: 1%;
 }
 
-.imagen__tienda {
+.locales__imagen {
   margin-left: 15%;
   width: 60%;
   display: none; /*En la version Mobile desabilita la imagen*/
@@ -161,19 +163,16 @@ iframe {
   justify-content: center;
   margin-left: 10%;
 }
-
-.subContacto {
+.contacto__detalle {
   display: flex;
   flex-direction: column;
   padding-bottom: 1%;
   color: #3b4856;
   width: 95%;
 }
-
-.alt__linea {
+.contacto__linea {
   border-color: #3b4856;
 }
-
 .contacto__boton {
   padding: 2%;
   margin-top: 3%;
@@ -198,7 +197,7 @@ iframe {
     justify-content: flex-start;
     margin-left: 35%;
   }
-  .subContacto {
+  .contacto__detalle {
     width: 75%;
   }
   .contacto__boton {
@@ -224,7 +223,7 @@ iframe {
     grid-template-columns: auto 60%;
     justify-items: start;
   }
-  .imagen__tienda {
+  .locales__imagen {
     display: block;
   }
   .row__tienda {
@@ -247,7 +246,7 @@ iframe {
     justify-content: flex-start;
     margin-left: 40%;
   }
-  .subContacto {
+  .contacto__detalle {
     width: 60%;
   }
   .contacto__boton {

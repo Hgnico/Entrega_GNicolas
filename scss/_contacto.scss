@@ -3,21 +3,22 @@
   @include flex(column);
   justify-content: center;
   margin-left: 10%;
-}
-.subContacto {
-  @include flex(column);
-  padding-bottom: 1%;
-  color: $color-font;
-  width: 95%;
-}
-.alt__linea {
-  border-color: $color-font;
-}
-.contacto__boton {
-  padding: 2%;
-  margin-top: 3%;
-  color: white;
-  background-color: $color-boton;
-  width: 95%;
-  font-size: large;
+
+  &__detalle {
+    @include flex(column);
+    padding-bottom: 1%;
+    color: $color-font;
+    width: 95%;
+  }
+  &__linea {
+    border-color: $color-font;
+  }
+  &__boton {
+    padding: 2%;
+    margin-top: 3%;
+    color: white;
+    background-color: $color-boton;
+    width: 95%;
+    font-size: large;
+  }
 }
