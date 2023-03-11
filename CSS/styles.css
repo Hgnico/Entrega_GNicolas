@@ -64,7 +64,7 @@ header {
 .img__main {
   padding: 2%;
   margin: auto;
-  width: 100%;
+  width: 90%;
 }
 
 /* Nosotros */
@@ -189,7 +189,7 @@ iframe {
     font-size: larger;
   }
   .navbar-nav .nav-link.active {
-    --bs-navbar-active-color: #3a4856;
+    --bs-navbar-active-color: white;
     font-weight: bold;
   }
   /*Contactos*/
@@ -262,7 +262,7 @@ iframe {
   /*Index*/
   .img__main {
     padding: 0.5%;
-    width: 62%;
+    width: 58%;
   }
   /*Contacto*/
   .contacto {
