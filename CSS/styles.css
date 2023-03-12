@@ -17,6 +17,7 @@ header {
   padding: 0.5%;
   position: sticky;
   justify-content: space-between;
+  /*Incluir gradient en el header*/
   background-image: linear-gradient(90deg, rgb(158, 173, 189) 22%, rgb(58, 113, 131) 73%, rgb(59, 72, 86) 93%);
 }
 
@@ -34,6 +35,8 @@ header {
 /*ajuste a navbar*/
 .nav-link {
   text-transform: uppercase;
+  --bs-nav-link-color: black;
+  font-weight: bold;
 }
 
 .text__upper {
@@ -50,6 +53,7 @@ header {
   position: fixed;
   bottom: 0;
   width: 100%;
+  /*Incluir gradient en el footer */
   background-image: linear-gradient(90deg, rgb(58, 128, 148) 0%, rgb(59, 72, 86) 35%, rgb(158, 173, 189) 86%);
 }
 
