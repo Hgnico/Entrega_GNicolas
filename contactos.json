@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "nombre": "Juan Martin Perez",
+    "Posicion": "Encargado Sucursal",
+    "sucursal": "Imprenta",
+    "email": "juan.perez@yourclothes.com",
+    "telefono": "4371-4545"
+    },
+    {
+    "id": 2,
+    "nombre": "Leandro Gimenez",
+    "Posicion": "Asistente Sucursal",
+    "sucursal": "Imprenta",
+    "email": "lean.gimenez@yourclothes.com",
+    "telefono": "4371-4545"
+    },
+    {
+    "id": 3,
+    "nombre": "Mariano Gutierrez",
+    "Posicion": "Asistente Sucursal",
+    "sucursal": "Imprenta",
+    "email": "mariano.gutierrez@yourclothes.com",
+    "telefono": "4371-4545"
+    },
+    {
+    "id": 4,
+    "nombre": "Emiliano Varni",
+    "Posicion": "Encargado Sucursal",
+    "sucursal": "Belgrano",
+    "email": "emiliano.varni@yourclothes.com",
+    "telefono": "4322-8000"
+    },
+    {
+    "id": 5,
+    "nombre": "Matias Anselmo",
+    "Posicion": "Asistente Sucursal",
+    "sucursal": "Belgrano",
+    "email": "matias.anselmo@yourclothes.com",
+    "telefono": "4322-8000"
+    },
+    {
+    "id": 5,
+    "nombre": "Juan Domina",
+    "Posicion": "Asistente Sucursal",
+    "sucursal": "Belgrano",
+    "email": "juan.perez@yourclothes.com",
+    "telefono": "4322-8000"
+    }
+]

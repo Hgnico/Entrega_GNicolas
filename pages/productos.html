@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Clothes | Nuestros Productos</title>
-    <!-- Información SEO -->
-    <meta
-      name="description"
-      content="Linea de ropa de hombre inclusiva para todas las edades y talles. Envíos a toda Argentina. Contamos con sucursales en el Solar y Alto Palermo."
-    />
-    <meta name="keywords" content="Ropa Hombre, remeras , buzos, pantalones" />
     <!-- Mi CSS -->
     <link rel="stylesheet" href="../CSS/styles.css" />
     <!-- Fonts -->
@@ -28,7 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!--Link animate-->
+    <!-- Link animate -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -83,132 +77,117 @@
                 <a class="nav-link" href="../pages/contacto.html">Contacto</a>
               </li>
             </ul>
-          </div>
+            
         </div>
       </nav>
     </header>
     <!-- Fin Barra de navegación & Header -->
     <main>
       <div>
+      <div class="header-section container">
+        <img clas="logo" src="" alt="">
+        <div>
+            <img onclick="showCart(this)" class="cart" src="../images/shopping-cart.png" alt="">
+            <p class="count-product">Tu carrito esta vacio" </p>
+            
+        </div>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" id="closeBtn" onclick="closeBtn()"> Cerrar </p>
+            <p>Mi carrito </strong></p>
+            <div class="card-items">
+            </div>
+            <h5>Total: $ <strong class="price-total"> 0 </strong></h5>
+            <section class="cart">
+              <div id="cart">
+                <button type="submit" class="checkout-btn" id="checkout">Comprar</button>
+              
+              </div>
+          </section>
+        </div>
+        <div>
+      <div>
         <h1 class="titulo__main animate__animated animate__zoomIn">
           Nuestros Productos
         </h1>
       </div>
       <div>
-        <section class="plantilla__prod">
-          <div class="card">
-            <img
-              src="../images/camisa-pulgares.jpg"
-              class="card-img-top img__prod"
-              alt="Joven con Camisa de Denim"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Camisa Denim</h5>
-              <p class="card-text animate__animated animate__flash">
-                ¡Ultimas unidades!
-              </p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
-            </div>
+        <section class="container">
+          <div class="products">
+          <div class="carts">
+              <div> 
+                <img src="../images/camisa-pulgares.jpg" class="card-img-top img__prod" alt="Joven con Camisa de Denim" />
+              </div>
+              <p class="title">Camisa Denim</p>
+              <p> $ <span>45000</span></p>
+              <a href="" data-id="1" class="btn-add-cart">Agregar</a>
           </div>
-          <div class="card">
-            <img
-              src="../images/skater.jpg"
-              class="card-img-top"
-              alt="Hombre con skate hoodie lila"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Hoodie</h5>
-              <p class="card-text">Regular fit / Varios colores</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+          <div class="carts">
+            <div>
+              <img src="../images/skater.jpg" class="card-img-top" alt="Hombre con skate hoodie lila" />
             </div>
-          </div>
-          <div class="card">
-            <img
-              src="../images/sweater-celeste.jpg"
-              class="card-img-top"
-              alt="Hombre con sweater celeste"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Sweater</h5>
-              <p class="card-text">Regular fit / Varios colores</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+              <p class="title">Hoodie</p>
+              <p> $ <span>52000</span></p>           
+              <a href="" data-id="2" class="btn-add-cart">Agregar</a>
             </div>
-          </div>
-          <div class="card">
-            <img
-              src="../images/hoodie-amarillo.jpg"
-              alt="Hombre con buzo amarillo "
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buzo Normal Fit</h5>
-              <p class="card-text">Todos los talles</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+          <div class="carts">
+            <div>
+              <img src="../images/sweater-celeste.jpg" class="card-img-top" alt="Hombre con sweater celeste" />
             </div>
+              <p class="title">Sweater</p>
+              <p> $ <span>35000</span></p>
+              <a href="" data-id="3" class="btn-add-cart">Agregar</a>
           </div>
-          <div class="card">
-            <img
-              src="../images/swater_marron.jpg"
-              alt="Hombre con sweater marron "
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Sweater Regular Fit</h5>
-              <p class="card-text">100% Algodón</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+          <div class="carts">
+            <div>
+              <img src="../images/hoodie-amarillo.jpg" alt="Hombre con buzo amarillo " class="card-img-top"  />
             </div>
-          </div>
-          <div class="card">
-            <img
-              src="../images/hoodie-verde.jpg"
-              alt="Hombre con hoodie verde "
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Hoodie</h5>
-              <p class="card-text">Modelo Canguro</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+              <p class="title">Buzo Normal Fit</p>
+              <p> $ <span>48000</span></p>
+              <a href="#" data-id="4" class="btn-add-cart">Agregar</a>
             </div>
-          </div>
-          <div class="card">
-            <img
-              src="../images/camisaMC.jpg"
-              alt="Hombre con camisa manga corta "
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Camisa M/C</h5>
-              <p class="card-text animate__animated animate__flash">
-                Liquidación de Temporada!
-              </p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+          <div class="carts">
+            <div>
+              <img src="../images/swater_marron.jpg" alt="Hombre con sweater marron " class="card-img-top" />
             </div>
+              <p class="title">Sweater Regular Fit</p>
+              <p> $ <span>48000</span></p>
+              <a href="#" data-id="5" class="btn-add-cart">Agregar</a>
           </div>
-          <div class="card">
-            <img
-              src="../images/remeraML.jpg"
-              alt="Hombre con remera manga larga "
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Remera M/L</h5>
-              <p class="card-text">100% Algodón</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+          <div class="carts">
+            <div>
+              <img src="../images/hoodie-verde.jpg" alt="Hombre con hoodie verde " class="card-img-top" />
             </div>
+              <p class="title">Hoodie</p>
+              <p> $ <span>48000</span></p>
+              <a href="#" data-id="6" class="btn-add-cart">Agregar</a>
           </div>
-          <div class="card">
-            <img
-              src="../images/campera.jpg"
-              alt="Hombre con campera de cuero"
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Campera Cuero</h5>
-              <p class="card-text">Cuero Ecológico</p>
-              <a href="#" class="btn btn-primary">Agregar a la bolsa</a>
+          <div class="carts">
+            <div>
+              <img src="../images/camisaMC.jpg" alt="Hombre con camisa manga corta " class="card-img-top" />
             </div>
+              <p class="title">Camisa M/C</p>
+              <p> $ <span>48000</span></p>     
+              <a href="#" data-id="7" class="btn-add-cart">Agregar</a>
           </div>
-        </section>
+          <div class="carts">
+            <div>
+              <img src="../images/remeraML.jpg" alt="Hombre con remera manga larga " class="card-img-top" />
+            </div>
+              <p class="title">Remera M/L</p>
+              <p> $ <span>48000</span></p>    
+              <a href="#" data-id="8" class="btn-add-cart">Agregar</a>
+          </div>
+          <div class="carts">
+            <div>
+              <img src="../images/campera.jpg" alt="Hombre con campera de cuero" class="card-img-top" />
+            </div>
+              <p class="title">Campera Cuero</p>
+              <p> $ <span>48000</span></p>  
+              <a href="#" data-id="9" class="btn-add-cart">Agregar</a>
+          </div>
+        </div>
+      </section>
+      
       </div>
     </main>
     <!--Comienzo de Footer-->
@@ -225,5 +204,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+<script src="../scripts.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
   </body>
 </html>

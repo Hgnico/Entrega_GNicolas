@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Clothes | Contacto</title>
-    <!-- Información SEO -->
-    <meta
-      name="description"
-      content="Linea de ropa de hombre inclusiva para todas las edades y talles. Envíos a toda Argentina. Contamos con sucursales en el Solar y Alto Palermo."
-    />
-    <meta name="keywords" content="Ropa Hombre, envios, contacto" />
     <!-- Mi CSS -->
     <link rel="stylesheet" href="../CSS/styles.css" />
     <!-- Fonts -->
@@ -96,50 +90,22 @@
     <main>
       <div>
         <h1 class="titulo__main animate__animated animate__zoomIn">
-          Contactanos
+        Contactanos
         </h1>
-      </div>
-      <div class="contacto">
-        <form action="contacto.html" class="contacto__detalle">
-          <div class="contacto__detalle">
-            <label class="contacto__linea" for="motivo">* Motivo:</label>
-            <input
-              class="contacto__linea"
-              type="text"
-              name="motivo"
-              id="motivo"
-              required
-            />
-          </div>
-          <div class="contacto__detalle">
-            <label class="contacto__linea" for="nombre">* Nombre:</label>
-            <input
-              class="contacto__linea"
-              type="text"
-              name="nombre"
-              id="nombre"
-              required
-            />
-          </div>
-          <div class="contacto__detalle">
-            <label class="contacto__linea" for="email">* Email:</label>
-            <input
-              class="contacto__linea"
-              type="email"
-              name="user_email"
-              id="email"
-              required
-            />
-          </div>
-          <div class="contacto__detalle">
-            <label class="contacto__linea" for="mensaje">Mensaje:</label>
-            <textarea name="mensaje" id="mensaje" cols="15" rows="6"></textarea>
-          </div>
-          <div>
-            <input class="contacto__boton" type="submit" value="Enviar" />
-          </div>
-        </form>
-      </div>
+        <div id="data-container"></div>
+        <div class="container mt-4 shadow-lg p-3 bg-body rounded">
+          <table class="table" table-bordered table-striped>
+          <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Sucursal</th>
+          </tr>
+            </thead>
+            <tbody id="data"></tbody>
+        </table>
+        </div>
     </main>
     <!--Comienzo de Footer-->
     <footer class="footer">
@@ -155,5 +121,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="../contacts.js" ></script>
   </body>
 </html>
