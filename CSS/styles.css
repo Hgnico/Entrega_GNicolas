@@ -146,7 +146,6 @@ iframe {
   grid-template-rows: repeat(2, 1fr);
   justify-items: start;
 }
-
 .foto {
   grid-area: foto;
 }

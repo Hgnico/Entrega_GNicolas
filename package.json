@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hgnico/Entregas_GNicolas.git"
+    "url": "git+https://github.com/Hgnico/Entrega_GNicolas.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hgnico/Entregas_GNicolas/issues"
+    "url": "https://github.com/Hgnico/Entrega_GNicolas/issues"
   },
-  "homepage": "https://github.com/Hgnico/Entregas_GNicolas#readme"
+  "homepage": "https://github.com/Hgnico/Entrega_GNicolas#readme"
 }
