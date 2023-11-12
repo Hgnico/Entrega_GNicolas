@@ -32,17 +32,16 @@ function deleteProduct(e) {
             if (value.id == deleteId) {
                 let priceReduce = parseFloat(value.price) * parseFloat(value.amount);
                 totalCard =  totalCard - priceReduce;
-                totalCard = totalCard.toFixed(0);
-            }
+                totalCard = totalCard.toFixed(0); }
         });
         allProduct = allProduct.filter(product => product.id !== deleteId);
         countProduct--;
     }
     if (allProduct.length === 0) {
         priceTotal.innerHTML = 0;
-        amountProduct.innerHTML = 0;
-    }
-    loadHtml();
+        amountProduct.innerHTML = "Tu carrito esta vacio"; }
+
+    cargarHtml();
 }
 function readTheContent(product){
     const dataProduct = {
@@ -69,19 +68,10 @@ function readTheContent(product){
         allProduct = [...allProduct, dataProduct]
         countProduct++;
     }
-    loadHtml();
+    cargarHtml();
 }
 
-// Recuperar desde localStorage
-// window.addEventListener('load', () => {
-//     const savedCart = localStorage.getItem('carrito');
-//     if (savedCart) {
-//     allProduct = JSON.parse(savedCart);
-//     loadHtml();
-//     }
-// });
-
-function loadHtml(){
+function cargarHtml(){
     clearHtml();
     allProduct.forEach(product => {
         const {image, title, price, amount, id} = product;
@@ -98,8 +88,7 @@ function loadHtml(){
         `;
         containerBuyCart.appendChild(row);
         priceTotal.innerHTML = totalCard;
-        amountProduct.innerHTML = countProduct;
-
+        amountProduct.innerHTML = 'Tenes ' + countProduct + ' articulo/s';
     });
 }
 // Limpieza carrito
@@ -140,7 +129,7 @@ if(allProduct.length===0){
 }
 
 });
-// Funciones para mostrar o cerrar el carrito 
+// Funciones para mostrar o cerrar el carrito
 function showCart(x){
 document.getElementById("products-id").style.display = "block";
 }

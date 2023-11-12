@@ -3,48 +3,48 @@
     "id": 1,
     "nombre": "Juan Martin Perez",
     "Posicion": "Encargado Sucursal",
-    "sucursal": "Imprenta",
+    "sucursal": "El Solar",
     "email": "juan.perez@yourclothes.com",
-    "telefono": "4371-4545"
+    "telefono": "011 4778-5000"
     },
     {
     "id": 2,
     "nombre": "Leandro Gimenez",
     "Posicion": "Asistente Sucursal",
-    "sucursal": "Imprenta",
+    "sucursal": "El Solar",
     "email": "lean.gimenez@yourclothes.com",
-    "telefono": "4371-4545"
+    "telefono": "011 4778-5000"
     },
     {
     "id": 3,
     "nombre": "Mariano Gutierrez",
     "Posicion": "Asistente Sucursal",
-    "sucursal": "Imprenta",
+    "sucursal": "El Solar",
     "email": "mariano.gutierrez@yourclothes.com",
-    "telefono": "4371-4545"
+    "telefono": "011 4778-5000"
     },
     {
     "id": 4,
     "nombre": "Emiliano Varni",
     "Posicion": "Encargado Sucursal",
-    "sucursal": "Belgrano",
+    "sucursal": "Alto Palermo",
     "email": "emiliano.varni@yourclothes.com",
-    "telefono": "4322-8000"
+    "telefono": "011 0800-222-2299"
     },
     {
     "id": 5,
     "nombre": "Matias Anselmo",
     "Posicion": "Asistente Sucursal",
-    "sucursal": "Belgrano",
+    "sucursal": "Alto Palermo",
     "email": "matias.anselmo@yourclothes.com",
-    "telefono": "4322-8000"
+    "telefono": "011 0800-222-2299"
     },
     {
     "id": 5,
     "nombre": "Juan Domina",
     "Posicion": "Asistente Sucursal",
-    "sucursal": "Belgrano",
-    "email": "juan.perez@yourclothes.com",
-    "telefono": "4322-8000"
+    "sucursal": "Alto Palermo",
+    "email": "juan.domina@yourclothes.com",
+    "telefono": "011 0800-222-2299"
     }
 ]

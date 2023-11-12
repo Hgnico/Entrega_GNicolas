@@ -1,15 +1,14 @@
-//Fetch
+//Fetch - Se utilizo para cargar una lista de contactos
 
-// let url = "https://jsonplaceholder.typicode.com/users";
 let contactos = []
 let url = "../contactos.json";
 
 fetch(url)
   .then((respuesta) => respuesta.json())
-  .then((data) => mostrarData(data))
+  .then((data) => mostrarDatos(data))
   .catch((error) => console.log("Error al cargar los datos"));
 
-const mostrarData = (data) => {
+const mostrarDatos = (data) => {
   console.log(data);
   let body = '';
   for (let i = 0; i < data.length; i++) {
