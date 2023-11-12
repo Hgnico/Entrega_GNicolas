@@ -129,7 +129,7 @@ if(allProduct.length===0){
 }
 
 });
-// Funciones para mostrar o cerrar el carrito
+// Funciones para mostrar / cerrar el carrito
 function showCart(x){
 document.getElementById("products-id").style.display = "block";
 }

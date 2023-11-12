@@ -46,5 +46,13 @@
     "sucursal": "Alto Palermo",
     "email": "juan.domina@yourclothes.com",
     "telefono": "011 0800-222-2299"
+    },
+    {
+    "id": 6,
+    "nombre": "Fernando Ruiz",
+    "Posicion": "Asistente Sucursal",
+    "sucursal": "Alto Palermo",
+    "email": "fer.ruiz@yourclothes.com",
+    "telefono": "011 0800-222-2299"
     }
 ]
